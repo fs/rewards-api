@@ -13,3 +13,26 @@ Token could be created using [`/api/v1/bot/tokens`](v1/bot_tokens/create_bot_tok
 Test bot created with these credentials:
 * name: `birthday`
 * password: `123456`
+
+## Examples
+
+In examples bellow [httpie](https://httpie.org/) tool used, please make sure you have it installed.
+
+Get JWT token:
+```
+echo '{"data":{"attributes":{"name":"birthday","password":"123456"}}}' \
+  | http -v http://rewards-staging.flts.tk/api/v1/bot/tokens 
+```
+
+Get list of users
+```
+http -v http://rewards-staging.flts.tk/api/v1/bot/users \
+  "Authorization:Bearer <JWT_TOKEN>"
+```
+
+Create Birthday Bonus:
+```
+echo '{"data":{"attributes":{"text":"Testing bots +100 @ramil.gabdrakhmanov #be-curious-never-stop-learning"}}}' \
+  | http -v http://rewards-staging.flts.tk/api/v1/bot/bonuses \
+  "Authorization:Bearer <JWT_TOKEN>"
+```
