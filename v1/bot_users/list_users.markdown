@@ -9,7 +9,7 @@
 
 <pre>Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MDExNTIxNTEsInN1YiI6OTN9.PNhBiABmNRY-qHl5o7lIKTR0qfGvON-L0yQc_wHHhoU</pre>
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzQsInN1YiI6MTd9.DxGf19jetk7BBHuxxYZmK-QYnGCsdd-zvVZXxkVBUOY</pre>
 
 #### Route
 
@@ -20,7 +20,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MDExNTIxN
 <pre class="request">curl -g &quot;https://rewards.flts.tk/api/v1/bot/users&quot; -X GET \
 	-H &quot;Content-Type: application/vnd.api+json&quot; \
 	-H &quot;Accept: application/vnd.api+json&quot; \
-	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MDExNTIxNTEsInN1YiI6OTN9.PNhBiABmNRY-qHl5o7lIKTR0qfGvON-L0yQc_wHHhoU&quot;</pre>
+	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzQsInN1YiI6MTd9.DxGf19jetk7BBHuxxYZmK-QYnGCsdd-zvVZXxkVBUOY&quot;</pre>
 
 ### Response
 
@@ -34,4 +34,4 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MDExNTIxN
 
 #### Body
 
-<pre>{"data":[{"id":"496","type":"users","attributes":{"email":"denis@flatstack.com","full-name":"Frederique Dibbert","username":"dibbert.frederique","profile-image-avatar-url":"memory://user/profile_image/d976720f7415d1f2815599e8673defcd.png"}}]}</pre>
+<pre>{"data":[{"id":"291","type":"users","attributes":{"email":"lucie.doyle@flatstack.com","full-name":"Elian Windler IV","username":"elian-iv-windler","profile-image-avatar-url":"memory://user/profile_image/12cad387737728ce76d36c7434fb6c37.png","allowance-balance":10000}}]}</pre>
