@@ -34,5 +34,78 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
 
 #### Body
 
-<pre>{ "data": [ { "id": "25", "type": "bonuses", "attributes": { "text": "+100 @phd.dortha.bruen thank you #doloribus-nulla-dicta ", "points": 100, "total-points": 238, "created-at": "2018-01-08T07:05:40.666Z" }, "relationships": { "sender": { "data": { "id": "12", "type": "users" } }, "comments": { "data": [ { "id": "63", "type": "comments" } ] } } } ], "included": [ { "id": "12", "type": "users", "attributes": { "full-name": "Constantin Pacocha" } }, { "id": "63", "type": "comments", "attributes": { "created-at": "2018-01-08T07:06:56.304Z", "text": "+69 to @phd.dortha.bruen #sed-nulla-quasi Thank you!" }, "relationships": { "bonus": { "data": { "id": "25", "type": "bonuses" } }, "sender": { "data": { "id": "11", "type": "users" } } } }, { "id": "11", "type": "users", "attributes": { "full-name": "Malcolm Ankunding III" } } ], "links": { "self":"http://localhost:5000/api/v1/user/bonuses?page%5Bnumber%5D=1&page%5Bsize%5D=10","first":"http://localhost:5000/api/v1/user/bonuses?page%5Bnumber%5D=1&page%5Bsize%5D=10", "prev": null, "next": null, "last":"http://localhost:5000/api/v1/user/bonuses?page%5Bnumber%5D=1&page%5Bsize%5D=10" } }
-</pre>
+<pre>{
+  "data": [
+    {
+      "id": "25",
+      "type": "bonuses",
+      "attributes": {
+        "text": "+100 @phd.dortha.bruen thank you #doloribus-nulla-dicta ",
+        "points": 100,
+        "total-points": 238,
+        "created-at": "2018-01-08T07:05:40.666Z"
+      },
+      "relationships": {
+        "sender": {
+          "data": {
+            "id": "12",
+            "type": "users"
+          }
+        },
+        "comments": {
+          "data": [
+            {
+              "id": "63",
+              "type": "comments"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "12",
+      "type": "users",
+      "attributes": {
+        "full-name": "Constantin Pacocha"
+      }
+    },
+    {
+      "id": "63",
+      "type": "comments",
+      "attributes": {
+        "created-at": "2018-01-08T07:06:56.304Z",
+        "text": "+69 to @phd.dortha.bruen #sed-nulla-quasi Thank you!"
+      },
+      "relationships": {
+        "bonus": {
+          "data": {
+            "id": "25",
+            "type": "bonuses"
+          }
+        },
+        "sender": {
+          "data": {
+            "id": "11",
+            "type": "users"
+          }
+        }
+      }
+    },
+    {
+      "id": "11",
+      "type": "users",
+      "attributes": {
+        "full-name": "Malcolm Ankunding III"
+      }
+    }
+  ],
+  "links": {
+    "self": "http:\/\/localhost:5000\/api\/v1\/user\/bonuses?page%5Bnumber%5D=1&page%5Bsize%5D=10",
+    "first": "http:\/\/localhost:5000\/api\/v1\/user\/bonuses?page%5Bnumber%5D=1&page%5Bsize%5D=10",
+    "prev": null,
+    "next": null,
+    "last": "http:\/\/localhost:5000\/api\/v1\/user\/bonuses?page%5Bnumber%5D=1&page%5Bsize%5D=10"
+  }
+}</pre>
