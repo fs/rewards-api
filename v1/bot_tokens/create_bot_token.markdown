@@ -44,4 +44,4 @@ Accept: application/vnd.api+json</pre>
 
 #### Body
 
-<pre>{"data":{"id":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzIsInN1YiI6MTV9.IC8M6VIXGVp-gXrGVteS0-z5pSvZHMreCI4Dg6-HgLQ","type":"jwt-tokens","attributes":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzIsInN1YiI6MTV9.IC8M6VIXGVp-gXrGVteS0-z5pSvZHMreCI4Dg6-HgLQ"}}}</pre>
+<pre>{"data":{"id":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NDg0OTI0NTAsInN1YiI6ODMwLCJ0eXBlIjoiYWNjZXNzIn0.lt4XrdZzS9NbY6bq_CZUCwtlt5hAbBKVBJ1pjAKmxaM","type":"paired-jwt-tokens","attributes":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NDg0OTI0NTAsInN1YiI6ODMwLCJ0eXBlIjoiYWNjZXNzIn0.lt4XrdZzS9NbY6bq_CZUCwtlt5hAbBKVBJ1pjAKmxaM","refresh":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NTM1OTAwNTAsInN1YiI6ODMwLCJ0eXBlIjoicmVmcmVzaCIsImNsaWVudF9pZCI6bnVsbH0.t4Soc3hGRoabp4yeSHj3-3lp1g-DuQ6jZAJFXFtmkn0"}}}</pre>
