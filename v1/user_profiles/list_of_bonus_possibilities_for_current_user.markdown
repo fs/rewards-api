@@ -34,4 +34,6 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
 
 #### Body
 
-<pre>{"data":{"id":"296","type":"users","attributes":{"email":"jayne.torphy@flatstack.com","full-name":"Cory Stiedemann","username":"stiedemann-cory","profile-image-avatar-url":"memory://user/profile_image/93e3cf35bbcb33cc2299ff5aab91cf97.png","allowance-balance":10000}}}</pre>
+<pre>{"data":{"id":"296","type":"users","attributes":{"email":"jayne.torphy@flatstack.com","full-name":"Cory Stiedemann","username":"stiedemann-cory","profile-image-avatar-url":"memory://user/profile_image/93e3cf35bbcb33cc2299ff5aab91cf97.png","allowance-balance":10000,"birth-date":"2019-01-07"}}}</pre>
+
+`"birth-date"` can be `null`.
