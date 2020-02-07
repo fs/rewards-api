@@ -9,7 +9,7 @@
 
 <pre>Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzUsInN1YiI6Mjk2fQ.0a2jfk8gWEJsBVnDcjyL4AOiIp6QQW13_tyJivM2fAk</pre>
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjcsInN1YiI6NDYxLCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.Txf-ZYuBgzmtVxS6SN9RD-QcTvq_uOqnM3rByUSZhz0</pre>
 
 #### Route
 
@@ -20,7 +20,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
 <pre class="request">curl -g &quot;https://rewards.flts.tk/api/v1/user/profile&quot; -X GET \
 	-H &quot;Content-Type: application/vnd.api+json&quot; \
 	-H &quot;Accept: application/vnd.api+json&quot; \
-	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzUsInN1YiI6Mjk2fQ.0a2jfk8gWEJsBVnDcjyL4AOiIp6QQW13_tyJivM2fAk&quot;</pre>
+	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjcsInN1YiI6NDYxLCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.Txf-ZYuBgzmtVxS6SN9RD-QcTvq_uOqnM3rByUSZhz0&quot;</pre>
 
 ### Response
 
@@ -34,4 +34,18 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
 
 #### Body
 
-<pre>{"data":{"id":"296","type":"users","attributes":{"email":"jayne.torphy@flatstack.com","full-name":"Cory Stiedemann","username":"stiedemann-cory","profile-image-avatar-url":"memory://user/profile_image/93e3cf35bbcb33cc2299ff5aab91cf97.png","allowance-balance":10000}}}</pre>
+<pre>{
+  "data": {
+    "id": "461",
+    "type": "users",
+    "attributes": {
+      "email": "analisa_friesen@runolfsdottirwest.co",
+      "full-name": "Aldo Lubowitz",
+      "username": "lubowitz.aldo",
+      "profile-image-avatar-url": "memory://user/profile_image/a4c5ec27c1060f63a4d4ca0ceb68d909.png",
+      "bonus-balance": 10000,
+      "allowance-balance": 10000,
+      "birth-date": "2001-09-24"
+    }
+  }
+}</pre>

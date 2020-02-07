@@ -9,7 +9,7 @@
 
 <pre>Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzQsInN1YiI6MTd9.DxGf19jetk7BBHuxxYZmK-QYnGCsdd-zvVZXxkVBUOY</pre>
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjMsInN1YiI6MjEsInR5cGUiOiJhY2Nlc3MiLCJjbGllbnRfaWQiOiIyIn0.4HkInMn_fsoTO193ZalaRmsxilISut-rJ_D4TlTCrE0</pre>
 
 #### Route
 
@@ -20,7 +20,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
 <pre class="request">curl -g &quot;https://rewards.flts.tk/api/v1/bot/users&quot; -X GET \
 	-H &quot;Content-Type: application/vnd.api+json&quot; \
 	-H &quot;Accept: application/vnd.api+json&quot; \
-	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzQsInN1YiI6MTd9.DxGf19jetk7BBHuxxYZmK-QYnGCsdd-zvVZXxkVBUOY&quot;</pre>
+	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjMsInN1YiI6MjEsInR5cGUiOiJhY2Nlc3MiLCJjbGllbnRfaWQiOiIyIn0.4HkInMn_fsoTO193ZalaRmsxilISut-rJ_D4TlTCrE0&quot;</pre>
 
 ### Response
 
@@ -34,4 +34,20 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
 
 #### Body
 
-<pre>{"data":[{"id":"291","type":"users","attributes":{"email":"lucie.doyle@flatstack.com","full-name":"Elian Windler IV","username":"elian-iv-windler","profile-image-avatar-url":"memory://user/profile_image/12cad387737728ce76d36c7434fb6c37.png","allowance-balance":10000}}]}</pre>
+<pre>{
+  "data": [
+    {
+      "id": "421",
+      "type": "users",
+      "attributes": {
+        "email": "emmitt_marks@waterswaelchi.io",
+        "full-name": "Cherie Simonis",
+        "username": "cherie_simonis",
+        "profile-image-avatar-url": "memory://user/profile_image/702430f53169f996ffa0c8ccdfae15e0.png",
+        "bonus-balance": 10000,
+        "allowance-balance": 10000,
+        "birth-date": "1979-10-23"
+      }
+    }
+  ]
+}</pre>

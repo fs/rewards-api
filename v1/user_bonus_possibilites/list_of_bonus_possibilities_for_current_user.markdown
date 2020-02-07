@@ -9,7 +9,7 @@
 
 <pre>Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzQsInN1YiI6Mjg3fQ.H-noT6eMnVKMTubCnSV42urygeBDv3dG2j6Liy-kzXI</pre>
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjMsInN1YiI6NDE4LCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.8ga_dw0q9CepPHLOMYZRyiM8Iir0OWYFWtJGts614CY</pre>
 
 #### Route
 
@@ -20,7 +20,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
 <pre class="request">curl -g &quot;https://rewards.flts.tk/api/v1/user/bonus_possibilities&quot; -X GET \
 	-H &quot;Content-Type: application/vnd.api+json&quot; \
 	-H &quot;Accept: application/vnd.api+json&quot; \
-	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4NzQsInN1YiI6Mjg3fQ.H-noT6eMnVKMTubCnSV42urygeBDv3dG2j6Liy-kzXI&quot;</pre>
+	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjMsInN1YiI6NDE4LCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.8ga_dw0q9CepPHLOMYZRyiM8Iir0OWYFWtJGts614CY&quot;</pre>
 
 ### Response
 
@@ -34,10 +34,9 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
 
 #### Body
 
-<pre>
-{
+<pre>{
   "data": {
-    "id": "287",
+    "id": "418",
     "type": "bonus-possibilities",
     "relationships": {
       "amounts": {
@@ -71,7 +70,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
       "tags": {
         "data": [
           {
-            "id": "393",
+            "id": "509",
             "type": "tags"
           }
         ]
@@ -79,7 +78,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
       "receivers": {
         "data": [
           {
-            "id": "286",
+            "id": "417",
             "type": "users"
           }
         ]
@@ -130,23 +129,24 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTA5MjE4N
       }
     },
     {
-      "id": "393",
+      "id": "509",
       "type": "tags",
       "attributes": {
-        "label": "laboriosam-aut-qui"
+        "label": "vitae-aut-quos"
       }
     },
     {
-      "id": "286",
+      "id": "417",
       "type": "users",
       "attributes": {
-        "email": "shane.osinski@flatstack.com",
-        "full-name": "Alta Grady",
-        "username": "grady_alta",
-        "profile-image-avatar-url": "memory://user/profile_image/f0652bd66f657a89ad0e8565382c86d8.png",
-        "allowance-balance": 10000
+        "email": "malik@lang.net",
+        "full-name": "Kindra Yundt",
+        "username": "kindra-yundt",
+        "profile-image-avatar-url": "memory://user/profile_image/e44f0ca6e4a1a9c85833c90dff242590.png",
+        "bonus-balance": 10000,
+        "allowance-balance": 10000,
+        "birth-date": "2013-05-13"
       }
     }
   ]
-}
-</pre>
+}</pre>
