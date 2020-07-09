@@ -9,18 +9,22 @@
 
 <pre>Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjMsInN1YiI6NDE4LCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.8ga_dw0q9CepPHLOMYZRyiM8Iir0OWYFWtJGts614CY</pre>
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQzNzAwNzcsInN1YiI6MzI2NCwidHlwZSI6ImFjY2VzcyIsImNsaWVudF9pZCI6IjIifQ.V69UhI5LWdqTbupnBhyfFFkHP3KHhD-fcbLTJ0fVXu4</pre>
 
 #### Route
 
 <pre>GET /api/v1/user/bonus_possibilities</pre>
 
+#### Query Parameters
+
+<pre>{}: </pre>
+
 #### cURL
 
-<pre class="request">curl -g &quot;https://rewards.flts.tk/api/v1/user/bonus_possibilities&quot; -X GET \
+<pre class="request">curl -g &quot;https://rewards.team/api/v1/user/bonus_possibilities&quot; -X GET \
 	-H &quot;Content-Type: application/vnd.api+json&quot; \
 	-H &quot;Accept: application/vnd.api+json&quot; \
-	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjMsInN1YiI6NDE4LCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.8ga_dw0q9CepPHLOMYZRyiM8Iir0OWYFWtJGts614CY&quot;</pre>
+	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQzNzAwNzcsInN1YiI6MzI2NCwidHlwZSI6ImFjY2VzcyIsImNsaWVudF9pZCI6IjIifQ.V69UhI5LWdqTbupnBhyfFFkHP3KHhD-fcbLTJ0fVXu4&quot;</pre>
 
 ### Response
 
@@ -36,7 +40,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
 
 <pre>{
   "data": {
-    "id": "418",
+    "id": "3264",
     "type": "bonus-possibilities",
     "relationships": {
       "amounts": {
@@ -70,7 +74,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
       "tags": {
         "data": [
           {
-            "id": "509",
+            "id": "4156",
             "type": "tags"
           }
         ]
@@ -78,7 +82,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
       "receivers": {
         "data": [
           {
-            "id": "417",
+            "id": "3263",
             "type": "users"
           }
         ]
@@ -129,23 +133,23 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
       }
     },
     {
-      "id": "509",
+      "id": "4156",
       "type": "tags",
       "attributes": {
-        "label": "vitae-aut-quos"
+        "label": "ab-repellendus-possimus"
       }
     },
     {
-      "id": "417",
+      "id": "3263",
       "type": "users",
       "attributes": {
-        "email": "malik@lang.net",
-        "full-name": "Kindra Yundt",
-        "username": "kindra-yundt",
-        "profile-image-avatar-url": "memory://user/profile_image/e44f0ca6e4a1a9c85833c90dff242590.png",
+        "email": "sammy@littelnolan.net",
+        "full-name": "Warren Raynor",
+        "username": "raynor_warren",
+        "profile-image-avatar-url": "memory://user/profile_image/47e9105220e66e9de2d97f1340111b11.png",
         "bonus-balance": 10000,
         "allowance-balance": 10000,
-        "birth-date": "2013-05-13"
+        "birth-date": "2006-05-31"
       }
     }
   ]
