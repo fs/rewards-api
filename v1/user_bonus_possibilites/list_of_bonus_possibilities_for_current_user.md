@@ -9,7 +9,7 @@
 
 <pre>Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjMsInN1YiI6NDE4LCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.8ga_dw0q9CepPHLOMYZRyiM8Iir0OWYFWtJGts614CY</pre>
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjczNzg1MzUsInN1YiI6MTk4MCwidHlwZSI6ImFjY2VzcyIsImNsaWVudF9pZCI6IjIifQ.jII_ElygFvfd3fVR1CO8IO58PcLQBJ0UdMgmNjIhGyI</pre>
 
 #### Route
 
@@ -17,10 +17,10 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
 
 #### cURL
 
-<pre class="request">curl -g &quot;https://rewards.flts.tk/api/v1/user/bonus_possibilities&quot; -X GET \
+<pre class="request">curl -g &quot;https://rewards.team/api/v1/user/bonus_possibilities&quot; -X GET \
 	-H &quot;Content-Type: application/vnd.api+json&quot; \
 	-H &quot;Accept: application/vnd.api+json&quot; \
-	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjMsInN1YiI6NDE4LCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.8ga_dw0q9CepPHLOMYZRyiM8Iir0OWYFWtJGts614CY&quot;</pre>
+	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjczNzg1MzUsInN1YiI6MTk4MCwidHlwZSI6ImFjY2VzcyIsImNsaWVudF9pZCI6IjIifQ.jII_ElygFvfd3fVR1CO8IO58PcLQBJ0UdMgmNjIhGyI&quot;</pre>
 
 ### Response
 
@@ -36,7 +36,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
 
 <pre>{
   "data": {
-    "id": "418",
+    "id": "1980",
     "type": "bonus-possibilities",
     "relationships": {
       "amounts": {
@@ -70,7 +70,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
       "tags": {
         "data": [
           {
-            "id": "509",
+            "id": "2418",
             "type": "tags"
           }
         ]
@@ -78,7 +78,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
       "receivers": {
         "data": [
           {
-            "id": "417",
+            "id": "1979",
             "type": "users"
           }
         ]
@@ -129,23 +129,23 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
       }
     },
     {
-      "id": "509",
+      "id": "2418",
       "type": "tags",
       "attributes": {
-        "label": "vitae-aut-quos"
+        "label": "officia-debitis-ut"
       }
     },
     {
-      "id": "417",
+      "id": "1979",
       "type": "users",
       "attributes": {
-        "email": "malik@lang.net",
-        "full-name": "Kindra Yundt",
-        "username": "kindra-yundt",
-        "profile-image-avatar-url": "memory://user/profile_image/e44f0ca6e4a1a9c85833c90dff242590.png",
+        "email": "cathy.swift@stammrau.co",
+        "full-name": "Harvey Witting III",
+        "username": "witting.iii.harvey",
+        "profile-image-avatar-url": "memory://user/profile_image/ccd08732d22584c7e727ac2fbec62637.png",
         "bonus-balance": 10000,
         "allowance-balance": 10000,
-        "birth-date": "2013-05-13"
+        "birth-date": "2011-06-22"
       }
     }
   ]
