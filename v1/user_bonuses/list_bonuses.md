@@ -9,7 +9,7 @@
 
 <pre>Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjYsInN1YiI6NDQ0LCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.-_MYTaWhBO1ItDbOghsu1EMqKHvwMM-NTUKIVtrvsac</pre>
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjczNzg1MzMsInN1YiI6MTk2MiwidHlwZSI6ImFjY2VzcyIsImNsaWVudF9pZCI6IjIifQ.CLy42H0eiISkDbPWAZZMpf-vVBWKBJpdKizfZbvTn-E</pre>
 
 #### Route
 
@@ -17,10 +17,10 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
 
 #### cURL
 
-<pre class="request">curl -g &quot;https://rewards.flts.tk/api/v1/user/bonuses&quot; -X GET \
+<pre class="request">curl -g &quot;https://rewards.team/api/v1/user/bonuses&quot; -X GET \
 	-H &quot;Content-Type: application/vnd.api+json&quot; \
 	-H &quot;Accept: application/vnd.api+json&quot; \
-	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1MjYsInN1YiI6NDQ0LCJ0eXBlIjoiYWNjZXNzIiwiY2xpZW50X2lkIjoiMiJ9.-_MYTaWhBO1ItDbOghsu1EMqKHvwMM-NTUKIVtrvsac&quot;</pre>
+	-H &quot;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjczNzg1MzMsInN1YiI6MTk2MiwidHlwZSI6ImFjY2VzcyIsImNsaWVudF9pZCI6IjIifQ.CLy42H0eiISkDbPWAZZMpf-vVBWKBJpdKizfZbvTn-E&quot;</pre>
 
 ### Response
 
@@ -37,25 +37,25 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
 <pre>{
   "data": [
     {
-      "id": "69",
+      "id": "309",
       "type": "bonuses",
       "attributes": {
-        "text": "+61 to @stoltenberg_ellis #ut-unde-adipisci Thank you!",
-        "points": 61,
-        "total-points": 142,
-        "created-at": "2020-02-04T08:32:06.028Z"
+        "text": "+13 to @simonis-dominick-miss #facere-quis-molestiae Thank you!",
+        "points": 13,
+        "total-points": 69,
+        "created-at": "2021-07-26T09:35:33.597Z"
       },
       "relationships": {
         "sender": {
           "data": {
-            "id": "442",
+            "id": "1960",
             "type": "users"
           }
         },
         "tags": {
           "data": [
             {
-              "id": "535",
+              "id": "2399",
               "type": "tags"
             }
           ]
@@ -66,7 +66,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
         "receivers": {
           "data": [
             {
-              "id": "443",
+              "id": "1961",
               "type": "users"
             }
           ]
@@ -74,25 +74,25 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
       }
     },
     {
-      "id": "68",
+      "id": "308",
       "type": "bonuses",
       "attributes": {
-        "text": "+73 to @lilliana_brown #omnis-cupiditate-delectus Thank you!",
+        "text": "+73 to @rodriguez-crysta #voluptatem-sapiente-aut Thank you!",
         "points": 73,
-        "total-points": 166,
-        "created-at": "2020-02-04T08:32:05.968Z"
+        "total-points": 147,
+        "created-at": "2021-07-26T09:35:33.532Z"
       },
       "relationships": {
         "sender": {
           "data": {
-            "id": "440",
+            "id": "1958",
             "type": "users"
           }
         },
         "tags": {
           "data": [
             {
-              "id": "534",
+              "id": "2398",
               "type": "tags"
             }
           ]
@@ -103,7 +103,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
         "receivers": {
           "data": [
             {
-              "id": "441",
+              "id": "1959",
               "type": "users"
             }
           ]
@@ -113,69 +113,69 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODA4OTE1M
   ],
   "included": [
     {
-      "id": "442",
+      "id": "1960",
       "type": "users",
       "attributes": {
-        "email": "odell_adams@osinski.io",
-        "full-name": "Shasta Steuber",
-        "username": "shasta-steuber",
-        "profile-image-avatar-url": "memory://user/profile_image/8875d72f9770f518041101b949a9c3fb.png",
+        "email": "berry@adamsabernathy.biz",
+        "full-name": "Dr. Adolph Russel",
+        "username": "russel.adolph.dr",
+        "profile-image-avatar-url": "memory://user/profile_image/47a8905611b990c416302751c76a8fd6.png",
         "bonus-balance": 10000,
         "allowance-balance": 10000,
-        "birth-date": "2012-05-31"
+        "birth-date": "2010-05-05"
       }
     },
     {
-      "id": "535",
+      "id": "2399",
       "type": "tags",
       "attributes": {
-        "label": "ut-unde-adipisci"
+        "label": "facere-quis-molestiae"
       }
     },
     {
-      "id": "443",
+      "id": "1961",
       "type": "users",
       "attributes": {
-        "email": "wiley@lebsack.net",
-        "full-name": "Ellis Stoltenberg",
-        "username": "stoltenberg_ellis",
-        "profile-image-avatar-url": "memory://user/profile_image/2fc7f986a433d2503721c076f3cb857d.png",
+        "email": "susie.kautzer@bailey.io",
+        "full-name": "Miss Dominick Simonis",
+        "username": "simonis-dominick-miss",
+        "profile-image-avatar-url": "memory://user/profile_image/669d8185110a420cef22288515bcd9ab.png",
         "bonus-balance": 10000,
         "allowance-balance": 10000,
-        "birth-date": "2015-07-30"
+        "birth-date": "1985-06-13"
       }
     },
     {
-      "id": "440",
+      "id": "1958",
       "type": "users",
       "attributes": {
-        "email": "donny.torp@jerdecruickshank.net",
-        "full-name": "Elinore Swaniawski",
-        "username": "elinore.swaniawski",
-        "profile-image-avatar-url": "memory://user/profile_image/d199eef99dcaa402ba0c973b2299f96f.png",
+        "email": "tamiko@beckerboyer.io",
+        "full-name": "Prince Bayer",
+        "username": "bayer.prince",
+        "profile-image-avatar-url": "memory://user/profile_image/f5b584c47d32f998787d4725a272ffe6.png",
         "bonus-balance": 10000,
         "allowance-balance": 10000,
-        "birth-date": "2004-08-23"
+        "birth-date": "1986-05-26"
       }
     },
     {
-      "id": "534",
+      "id": "2398",
       "type": "tags",
       "attributes": {
-        "label": "omnis-cupiditate-delectus"
+        "label": "voluptatem-sapiente-aut"
       }
     },
     {
-      "id": "441",
+      "id": "1959",
       "type": "users",
       "attributes": {
-        "email": "ricky@keelingebert.co",
-        "full-name": "Lilliana Brown",
-        "username": "lilliana_brown",
-        "profile-image-avatar-url": "memory://user/profile_image/211c4826060bc15762f531cdeb46d963.png",
+        "email": "jammie.rowe@grahamhintz.info",
+        "full-name": "Crysta Rodriguez",
+        "username": "rodriguez-crysta",
+        "profile-image-avatar-url": "memory://user/profile_image/5163cdedf59de44d55675e5d0e2b2f90.png",
         "bonus-balance": 10000,
         "allowance-balance": 10000,
-        "birth-date": "1980-05-09"
+        "birth-date": "1997-04-18"
       }
     }
   ],
